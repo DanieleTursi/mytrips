@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import logo from './logo.svg';
 import Navbar from './components/Navbar/Navbar';
 import Card from './components/Card/Card';
 import './App.css';
@@ -11,11 +10,12 @@ class App extends Component{
   constructor(){
     super()
     this.state ={
-        countries:[ITALY, FRANCE, SPAIN, POLAND],
-        colors:[{ITALY:'linear-gradient(to right, green, white, red)'}],[{FRANCE:'linear-gradient(to right, blue, white, red)'}]
+        europe:['AUSTRIA','BELGIUM','BOSNIA & HERZAGOVINA', 'BULGARIA'],
+        searchfield:''
     }
 }
   render(){ 
+    const {europe}= this.state;
     return(
     <div className="App">
         <style jsx global>{`
@@ -26,7 +26,7 @@ class App extends Component{
       }
     `}</style>
       <Navbar/>
-      <Card/>
+      <Card europe={europe}/>
     </div>
     )
   };
