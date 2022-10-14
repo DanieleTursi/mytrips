@@ -2,7 +2,7 @@ export const europe = [
     {
         id: 1,
         name: 'AUSTRIA',
-        bg:{background:'linear-gradient(to bottom, #EF3340, white, #EF3340)'},
+        bg:{backgroundImage: `url(require("./flags/austria.png"))`},
     },
     {
         id: 2,
