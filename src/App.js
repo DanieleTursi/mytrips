@@ -22,7 +22,7 @@ class App extends Component{
       body {
         margin: 0px;
         padding: 0px;
-        background:#C6D3E6;
+        background:#FFFFFF;
       }
     `}</style>
       <Navbar/>

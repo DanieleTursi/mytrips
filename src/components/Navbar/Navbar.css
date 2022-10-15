@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Kaushan+Script&display=swap');
 
 .container{
-    background-image: linear-gradient(to right, #3AAE57, #9ACEE4);
+    background: black;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     justify-items: center;
     padding: 10px 30px
+}
+
+.logo{
+   font-size: 42px;
+   text-shadow: 3px 3px 3px gray;
 }
 
 h1{

@@ -1,99 +1,118 @@
+import austria from "./flags/austria.png"; 
+import belgium from "./flags/belgium.png";
+import bosniaherzegovina from "./flags/bosniaherzegovina.png";  
+import bulgaria from "./flags/bulgaria.png";  
+import croatia from "./flags/croatia.svg"; 
+import cyprus from "./flags/cyprus.png";   
+import czech from "./flags/czech.png";  
+import denmark from "./flags/denmark.png";  
+import england from "./flags/england.png";  
+import finland from "./flags/finland.png";
+import france from "./flags/france.webp";
+import germany from "./flags/germany.png";
+import gibraltar from "./flags/gibraltar.svg";
+import greece from "./flags/greece.png";
+import hungary from "./flags/hungary.png";
+import italy from "./flags/italy.svg";
+import latvia from "./flags/latvia.svg";
+import lithuania from "./flags/lithuania.png";
+
 export const europe = [
     {
         id: 1,
         name: 'AUSTRIA',
-        bg:{backgroundImage: `url(require("./flags/austria.png"))`},
+        bg:{backgroundImage: `url(${austria})`},
     },
     {
         id: 2,
         name: 'BELGIUM',
-        bg:{background:'linear-gradient(to right, black, #FFCD00, #C8102E)'},
+        bg:{backgroundImage: `url(${belgium})`},
         },
 
     {
         id: 3,
         name: 'BOSNIA AND HERZEGOVINA',
-        bg:{background:'linear-gradient(to right, #002F6C, white, #FFCD00)'},
+        bg:{backgroundImage: `url(${bosniaherzegovina})`},
     },
     {
         id: 4,
         name: 'BULGARIA',
-        bg:{background:'linear-gradient(to bottom, white, #00966E, #D62612)'},
+        bg:{backgroundImage: `url(${bulgaria})`},
         },
             
     {
         id: 5,
         name: 'CROATIA',
-        bg:{background:'linear-gradient(to right, #E62319, #0F378C, white)'},
+        bg:{backgroundImage: `url(${croatia})`},
     },
     {
         id: 6,
         name: 'CYPRUS',
-        bg:{background:'linear-gradient(to right, #D57800,white, #4E5B31)'},
+        bg:{backgroundImage: `url(${cyprus})`},
         },
     {
         id: 7,
         name: 'CZECH REPUBLIC',
-        bg:{background:'linear-gradient(to right, #11457E, white, #D7141A)'},
+        bg:{backgroundImage: `url(${czech})`},
     },
     {
         id: 8,
         name: 'DENMARK',
-        bg:{background:'linear-gradient(to right, #C8102E, white)'},
+        bg:{backgroundImage: `url(${denmark})`},
         },
 
     {
         id: 9,
         name: 'ENGLAND',
-        bg:{background:'linear-gradient(to right, green, white, red)'},
+        bg:{backgroundImage: `url(${england})`},
     },
     {
         id: 10,
         name: 'FINLAND',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
+        bg:{backgroundImage: `url(${finland})`},
         },
             
     {
         id: 11,
         name: 'FRANCE',
-        bg:{background:'linear-gradient(to right, green, white, red)'},
+        bg:{backgroundImage: `url(${france})`},
     },
     {
         id: 12,
         name: 'GERMANY',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
+        bg:{backgroundImage: `url(${germany})`},
         },
     {
         id: 13,
         name: 'GIBRALTAR',
-        bg:{background:'linear-gradient(to right, green, white, red)'},
+        bg:{backgroundImage: `url(${gibraltar})`},
     },
     {
         id: 14,
         name: 'GREECE',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
+        bg:{backgroundImage: `url(${greece})`},
         },
 
     {
         id: 15,
         name: 'HUNGARY',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
+        bg:{backgroundImage: `url(${hungary})`},
     },
     {
         id: 16,
         name: 'ITALY',
-        bg:{background:'linear-gradient(to right, green, white, red)'},
+        bg:{backgroundImage: `url(${italy})`},
         },
             
     {
         id: 17,
         name: 'LATVIA',
-        bg:{background:'linear-gradient(to right, green, white, red)'},
+        bg:{backgroundImage: `url(${latvia})`},
     },
     {
         id: 18,
         name: 'LITHUANIA',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
+        bg:{backgroundImage: `url(${lithuania})`},
     },
     {
         id: 19,
