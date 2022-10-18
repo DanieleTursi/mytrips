@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    margin:5px;
 }
 
 .cardbox{
@@ -26,6 +27,5 @@
 h1 {
     text-shadow: 2px 2px 2px  black;
     font-size: 26px;
-   
 }
 

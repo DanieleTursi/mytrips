@@ -1,15 +1,17 @@
 import React from "react";
 import './Navbar.css';
 import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = ()=>{
+  const navigate = useNavigate();
     return(
       <div className="container">
-        <h1 className="logo">MYTRIPS</h1>
-        <a>AFRICA</a>
-        <a>AMERICA</a>
-        <a>ASIA</a>
-        <a>EUROPE</a>
+        <h1 onClick={() => navigate("/")} className="logo">MYTRIPS</h1>
+        <a onClick={() => navigate("/africa")}>AFRICA</a>
+        <a onClick={() => navigate("/america")}>AMERICA</a>
+        <a onClick={() => navigate("/asia")}>ASIA</a>
+        <a onClick={() => navigate("/")}>EUROPE</a>
         <a>OCEANIA</a>
       </div>
     )
