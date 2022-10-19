@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import CardAfrica from './components/Card/CardAfrica';
 import CardAmerica from './components/Card/CardAmerica';
 import CardAsia from './components/Card/CardAsia';
+import CardOceania from './components/Card/CardOceania';
 
 
 
@@ -34,12 +35,12 @@ class App extends Component{
       <Navbar/>
       <Routes>
 
-      <Route path="/" element={<Card europe={europe}/>}/>
-      <Route path="/africa" element={<CardAfrica europe={europe}/>}/>
+      <Route path="/" element={<><CardAfrica/> <CardAmerica/> <CardAsia/> <Card /> </>}/>
+      <Route path="/africa" element={<CardAfrica />}/>
       <Route path="/america" element={<CardAmerica america={america}/>}/>
       <Route path="/asia" element={<CardAsia asia={asia}/>}/>
       <Route path="/europe" element={<Card europe={europe}/>}/>
-      <Route path="/oceania" element={<Card oceania={oceania}/>}/>
+      <Route path="/oceania" element={<CardOceania/>}/>
         
       </Routes>
       </div>

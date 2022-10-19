@@ -36,6 +36,20 @@ import ukraine from "./flags/ukraine.webp";
 import vatican from "./flags/vatican.png";
 import wales from "./flags/wales.png";
 import egypt from "./flags/egypt.png";
+import bermuda from "./flags/bermuda.png";
+import canada from "./flags/canada.svg";
+import domenicanrepublic from "./flags/domenicanrepublic.png";
+import mexico from "./flags/mexico.png";
+import bahamas from "./flags/bahamas.png";
+import maine from "./flags/maine.png";
+import maryland from "./flags/maryland.png";
+import massachusetts from "./flags/massachusetts.png";
+import southcarolina from "./flags/southcarolina.png";
+import china from "./flags/china.png";
+import philippines from "./flags/philippines.png";
+import singapore from "./flags/singapore.svg";
+import thailand from "./flags/thailand.png";
+
 
 export const europe = [
     {
@@ -250,57 +264,47 @@ export const europe = [
     {
         id: 1,
         name: 'BERMUDA',
-        bg:{background:'linear-gradient(to right, green, white, red)'},
+        bg:{backgroundImage: `url(${bermuda})`},
     },
     {
         id: 2,
         name: 'CANADA',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
+        bg:{backgroundImage: `url(${canada})`},
     },
     {
         id: 3,
-        name: 'BERMUDA',
-        bg:{background:'linear-gradient(to right, green, white, red)'},
+        name: 'DOMENICAN REPUBLIC',
+        bg:{backgroundImage: `url(${domenicanrepublic})`},
     },
     {
         id: 4,
-        name: 'CANADA',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
+        name: 'MEXICO',
+        bg:{backgroundImage: `url(${mexico})`},
     },
     {
         id: 5,
-        name: 'DOMENICAN REPUBLIC',
-        bg:{background:'linear-gradient(to right, green, white, red)'},
+        name: 'THE BAHAMAS',
+        bg:{backgroundImage: `url(${bahamas})`},
     },
     {
         id: 6,
-        name: 'MEXICO',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
+        name: 'MAINE',
+        bg:{backgroundImage: `url(${maine})`},
     },
     {
         id: 7,
-        name: 'THE BAHAMAS',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
+        name: 'MARYLAND',
+        bg:{backgroundImage: `url(${maryland})`},
     },
     {
         id: 8,
-        name: 'MAINE',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
+        name: 'MASSACHUSETTS',
+        bg:{backgroundImage: `url(${massachusetts})`},
     },
     {
         id: 9,
-        name: 'MARYLAND',
-        bg:{background:'linear-gradient(to right, green, white, red)'},
-    },
-    {
-        id: 10,
-        name: 'MASSACHUSETTS',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
-    },
-    {
-        id: 11,
         name: 'SOUTH CAROLINA',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
+        bg:{backgroundImage: `url(${southcarolina})`},
     },
 
   ];
@@ -309,22 +313,22 @@ export const europe = [
     {
         id: 1,
         name: 'CHINA',
-        bg:{background:'linear-gradient(to right, green, white, red)'},
+        bg:{backgroundImage: `url(${china})`},
     },
     {
         id: 2,
-        name: 'PHILLIPPINES',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
+        name: 'PHILIPPINES',
+        bg:{backgroundImage: `url(${philippines})`},
     },
     {
         id: 3,
         name: 'SINGAPORE',
-        bg:{background:'linear-gradient(to right, green, white, red)'},
+        bg:{backgroundImage: `url(${singapore})`},
     },
     {
         id: 4,
         name: 'THAILAND',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
+        bg:{backgroundImage: `url(${thailand})`},
     },    
 
   ];

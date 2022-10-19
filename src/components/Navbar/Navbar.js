@@ -12,7 +12,7 @@ const Navbar = ()=>{
         <a onClick={() => navigate("/america")}>AMERICA</a>
         <a onClick={() => navigate("/asia")}>ASIA</a>
         <a onClick={() => navigate("/")}>EUROPE</a>
-        <a>OCEANIA</a>
+        <a onClick={() => navigate("/oceania")}>OCEANIA</a>
       </div>
     )
 };

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Kaushan+Script&family=PT+Sans+Narrow:wght@700&display=swap');
 
 .container{
     background: black;
@@ -12,11 +12,11 @@
 .logo{
    font-size: 42px;
    text-shadow: 3px 3px 3px gray;
+   font-family: 'Gochi Hand', cursive;
 }
 
 h1{
     margin:0;
-    font-family: 'Gochi Hand', cursive;
     color:white;
     font-size: 40px;
 }

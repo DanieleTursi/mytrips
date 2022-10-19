@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Kaushan+Script&family=PT+Sans+Narrow:wght@700&display=swap');
+
 .cardContainer{
     display: flex;
     flex-direction: row;
@@ -25,7 +27,11 @@
 }
 
 h1 {
-    text-shadow: 2px 2px 2px  black;
-    font-size: 26px;
+    text-shadow: -1.5px 1.5px 0 #000,
+                 1.5px 1.5px 0 #000,
+                 1.5px -1.5px 0 #000,
+                 -1.5px -1.5px 0 #000;;
+    font-size: 24px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
