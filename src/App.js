@@ -8,6 +8,7 @@ import CardAfrica from './components/Card/CardAfrica';
 import CardAmerica from './components/Card/CardAmerica';
 import CardAsia from './components/Card/CardAsia';
 import CardOceania from './components/Card/CardOceania';
+import Home from './components/Home/Home';
 
 
 
@@ -35,7 +36,7 @@ class App extends Component{
       <Navbar/>
       <Routes>
 
-      <Route path="/" element={<><CardAfrica/> <CardAmerica/> <CardAsia/> <Card /> </>}/>
+      <Route path="/" element={<Home/>}/>
       <Route path="/africa" element={<CardAfrica />}/>
       <Route path="/america" element={<CardAmerica america={america}/>}/>
       <Route path="/asia" element={<CardAsia asia={asia}/>}/>

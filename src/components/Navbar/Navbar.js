@@ -11,7 +11,7 @@ const Navbar = ()=>{
         <a onClick={() => navigate("/africa")}>AFRICA</a>
         <a onClick={() => navigate("/america")}>AMERICA</a>
         <a onClick={() => navigate("/asia")}>ASIA</a>
-        <a onClick={() => navigate("/")}>EUROPE</a>
+        <a onClick={() => navigate("/europe")}>EUROPE</a>
         <a onClick={() => navigate("/oceania")}>OCEANIA</a>
       </div>
     )
