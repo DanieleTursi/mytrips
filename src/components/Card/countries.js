@@ -166,83 +166,82 @@ export const europe = [
     },
     {
         id: 22,
+        name: 'NETHERLANDS',
+        bg:{backgroundImage: `url(${netherlands})`},
+    },
+    {
+        id: 23,
         name: 'NORWAY',
         bg:{backgroundImage: `url(${norway})`},
     },
     {
-        id: 23,
+        id: 24,
         name: 'POLAND',
         bg:{backgroundImage: `url(${poland})`},
     },
     {
-        id: 24,
+        id: 25,
         name: 'PORTUGAL',
         bg:{backgroundImage: `url(${portugal})`},
         },
 
     {
-        id: 25,
+        id: 26,
         name: 'ROMANIA',
         bg:{backgroundImage: `url(${romania})`},
     },
     {
-        id: 26,
+        id: 27,
         name: 'RUSSIA',
         bg:{backgroundImage: `url(${russia})`},
         },
             
     {
-        id: 27,
+        id: 28,
         name: 'SAN MARINO',
         bg:{backgroundImage: `url(${sanmarino})`},
     },
     {
-        id: 28,
+        id: 29,
         name: 'SCOTLAND',
         bg:{backgroundImage: `url(${scotland})`},
     },
     {
-        id: 29,
+        id: 30,
         name: 'SLOVAKIA',
         bg:{backgroundImage: `url(${slovakia})`},
     },
     {
-        id: 30,
+        id: 31,
         name: 'SLOVENIA',
         bg:{backgroundImage: `url(${slovenia})`},
         },
             
     {
-        id: 31,
+        id: 32,
         name: 'SPAIN',
         bg:{backgroundImage: `url(${spain})`},
     },
     {
-        id: 32,
+        id: 33,
         name: 'SWEDEN',
         bg:{backgroundImage: `url(${sweden})`},
     },
     {
-        id: 33,
+        id: 34,
         name: 'SWITZERLAND',
         bg:{backgroundImage: `url(${swiss})`},
     },
     {
-        id: 34,
-        name: 'THE NETHERLANDS',
-        bg:{backgroundImage: `url(${netherlands})`},
-    },
-    {
         id: 35,
-        name: 'THE VATICAN',
-        bg:{backgroundImage: `url(${vatican})`},
-        },
-            
-    {
-        id: 36,
         name: 'UKRAINE',
         bg:{backgroundImage: `url(${ukraine})`},
-    },
+    },          
+    {
+        id: 36,
+        name: 'VATICAN',
+        bg:{backgroundImage: `url(${vatican})`},
+        },
     {
         id: 37,
         name: 'WALES',
