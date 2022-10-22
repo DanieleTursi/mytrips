@@ -11,10 +11,7 @@
     font-weight: bolder;
     font-family: 'Gochi Hand', cursive;
     color:black;
-    text-shadow: -1.5px 1.5px 0 #fff,
-                 1.5px 1.5px 0 #fff,
-                 1.5px -1.5px 0 #fff,
-                 -1.5px -1.5px 0 #fff;;
+    text-shadow: none;
 }
 
 p{

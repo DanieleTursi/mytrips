@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Kaushan+Script&family=PT+Sans+Narrow:wght@700&display=swap');
 
+.page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:5px;
+}
+
 .cardContainer{
     display: flex;
     flex-direction: row;

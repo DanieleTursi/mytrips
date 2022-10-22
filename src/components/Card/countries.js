@@ -49,6 +49,7 @@ import china from "./flags/china.png";
 import philippines from "./flags/philippines.png";
 import singapore from "./flags/singapore.svg";
 import thailand from "./flags/thailand.png";
+import austria1 from '../Country/photos/austria1.jpg'
 
 
 export const europe = [
@@ -56,6 +57,7 @@ export const europe = [
         id: 1,
         name: 'AUSTRIA',
         bg:{backgroundImage: `url(${austria})`},
+        photos:[{austria1}]
     },
     {
         id: 2,
