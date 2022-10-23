@@ -1,56 +1,66 @@
-import React from 'react'
-import './Austria.css'
-import austria1 from './photos/austria1.jpg'
-import austria2 from './photos/austria2.jpg'
-import austria3 from './photos/austria3.jpg'
-import austria4 from './photos/austria4.jpg'
-import austria5 from './photos/austria5.jpg'
-import austria6 from './photos/austria6.jpg'
-import austria7 from './photos/austria7.jpg'
-import austria8 from './photos/austria8.jpg'
-import austria9 from './photos/austria9.jpg'
-import austria10 from './photos/austria10.jpg'
-import austria11 from './photos/austria11.jpg'
-import austria12 from './photos/austria12.jpg'
-import austria13 from './photos/austria13.jpg'
-import austria14 from './photos/austria14.jpg'
-import austria15 from './photos/austria15.jpg'
-import austria16 from './photos/austria16.jpg'
-import austria17 from './photos/austria17.jpg'
-import austria18 from './photos/austria18.jpg'
-import austria19 from './photos/austria19.jpg'
-import austria20 from './photos/austria20.jpg'
-import austria21 from './photos/austria21.jpg'
+import React, {useState}from 'react'
+import './Country.css'
+import { AustriaSlider } from './AustriaSlider';
+import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 
+const Austria = ({slides}) => {
+  const [current,setCurrent] = useState(0)
+  const length = slides.length;
 
-const Austria = () => {
+  const nextSlide= ()=>{
+    setCurrent(current === length -1 ? 0 : current +1)
+  }
+
+  const prevSlide= ()=>{
+    setCurrent(current === 0 ? length-1 : current -1)
+  }
+
+  if(!Array.isArray(slides)|| slides.length<=0){
+    return null
+  }
+
   return (
-    <div>
+    <div className='sliderCointainer'>
     <h1 className='cityName'>WIEN</h1>
-    <div className='photosBox'>
-      <img src={austria1}></img>
-      <img src={austria2}></img>
-      <img src={austria3}></img>
-      <img src={austria4}></img>
-      <img src={austria5}></img>
-      <img src={austria6}></img>
-      <img src={austria7}></img>
-      <img src={austria8}></img>
-      <img src={austria9}></img>
-      <img src={austria10}></img>
-      <img src={austria11}></img>
-      <img src={austria12}></img>
-      <img src={austria13}></img>
-      <img src={austria14}></img>
-      <img src={austria15}></img>
-      <img src={austria16}></img>
-      <img src={austria17}></img>
-      <img src={austria18}></img>
-      <img src={austria19}></img>
-      <img src={austria20}></img>
-      <img src={austria21}></img>
-      </div>
-      </div>
+    <div className='slider'> 
+      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
+      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide}/>
+      {AustriaSlider.map((slide,index)=>{
+        return(
+          <div className={index=== current ?'slide active' : 'slide'} key={index}>
+            {index === current  && (<img src={slide.image} alt="wienphoto" className='image'></img>)}
+          
+          </div>
+        )
+      })}
+    </div>
+    </div>
+    // <div>
+    // <h1 className='cityName'>WIEN</h1>
+    // <div className='photosBox'>
+    //   <img src={require('./photos/austria1.jpg')} alt="photowien"></img>
+    //   <img src={require('./photos/austria2.jpg')}></img>
+    //   <img src={require('./photos/austria3.jpg')}></img>
+    //   <img src={require('./photos/austria4.jpg')}></img>
+    //   <img src={require('./photos/austria5.jpg')}></img>
+    //   <img src={require('./photos/austria6.jpg')}></img>
+    //   <img src={require('./photos/austria7.jpg')}></img>
+    //   <img src={require('./photos/austria8.jpg')}></img>
+    //   <img src={require('./photos/austria9.jpg')}></img>
+    //   <img src={require('./photos/austria10.jpg')}></img>
+    //   <img src={require('./photos/austria11.jpg')}></img>
+    //   <img src={require('./photos/austria12.jpg')}></img>
+    //   <img src={require('./photos/austria13.jpg')}></img>
+    //   <img src={require('./photos/austria14.jpg')}></img>
+    //   <img src={require('./photos/austria15.jpg')}></img>
+    //   <img src={require('./photos/austria16.jpg')}></img>
+    //   <img src={require('./photos/austria17.jpg')}></img>
+    //   <img src={require('./photos/austria18.jpg')}></img>
+    //   <img src={require('./photos/austria19.jpg')}></img>
+    //   <img src={require('./photos/austria20.jpg')}></img>
+    //   <img src={require('./photos/austria21.jpg')}></img>
+    //   </div>
+    //   </div>
   )
 }
 

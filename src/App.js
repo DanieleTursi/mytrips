@@ -10,6 +10,7 @@ import CardAsia from './components/Card/CardAsia';
 import CardOceania from './components/Card/CardOceania';
 import Home from './components/Home/Home';
 import Austria from './components/Country/Austria';
+import { AustriaSlider } from './components/Country/AustriaSlider';
 
 
 
@@ -43,7 +44,7 @@ class App extends Component{
       <Route path="/asia" element={<CardAsia asia={asia}/>}/>
       <Route path="/europe" element={<Card europe={europe}/>}/>
       <Route path="/oceania" element={<CardOceania/>}/>
-      <Route path="/AUSTRIA" element={<Austria/>}/>
+      <Route path="/AUSTRIA" element={<Austria slides={AustriaSlider}/>}/>
         
       </Routes>
       </div>

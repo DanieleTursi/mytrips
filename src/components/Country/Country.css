@@ -1,0 +1,60 @@
+.slider{
+    position:relative;
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.image {
+    width:60vh;
+    border-radius: 10px;
+}
+
+.right-arrow{
+    position:absolute;
+    top:50%;
+    right:32px;
+    font-size:3rem;
+    color:black;
+    z-index:10;
+    cursor:pointer;
+    user-select: none;
+}
+
+.left-arrow{
+    position:absolute;
+    top:50%;
+    left:32px;
+    font-size:3rem;
+    color:black;
+    z-index:10;
+    cursor:pointer;
+    user-select: none;
+}
+
+.cityName{
+  font-size: 46px;
+  letter-spacing: 2px;
+  color: black;
+  text-shadow: none;
+  margin-bottom: 0;
+}
+
+.photosBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:5px;
+}
+
+/* img {
+    height:400px;
+    margin:10px;
+    border-radius: 10px;
+} */
+
+/* img:hover{
+    height:600px;
+} */
