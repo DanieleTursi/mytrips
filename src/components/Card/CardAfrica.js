@@ -1,9 +1,7 @@
-import React, {useState} from "react";
-import { africa} from './countries'
-
+import {africa} from './countries'
 
 const CardAfrica = ()=>{
-  const [countries, setCountries] = useState (africa)
+  const countries= africa
   return (
     <div className="cardContainer">
     {countries.map((country) =>{

@@ -3,8 +3,10 @@ import './Navbar.css';
 import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
+
 const Navbar = ()=>{
   const navigate = useNavigate();
+
     return(
       <div className="container">
         <h1 onClick={() => navigate("/")} className="logo">MYTRIPS</h1>

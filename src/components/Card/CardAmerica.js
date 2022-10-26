@@ -1,10 +1,9 @@
-import React, {useState} from "react";
 import './Card.css';
 import {america} from './countries'
 
 
 const CardAmerica = ()=>{
-  const [countries, setCountries] = useState (america)
+  const countries = america;
   return (
     <div className="cardContainer">
     {countries.map((country) =>{

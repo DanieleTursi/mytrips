@@ -1,10 +1,7 @@
-import React, {useState} from "react";
-import './Card.css';
 import {asia} from './countries'
 
-
 const CardAsia = ()=>{
-  const [countries, setCountries] = useState (asia)
+  const countries = asia
   return (
     <div className="cardContainer">
     {countries.map((country) =>{

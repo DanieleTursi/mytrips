@@ -335,16 +335,7 @@ export const europe = [
   ];
 
   export const oceania = [
-    {
-        id: 1,
-        name: 'ITALY',
-        bg:{background:'linear-gradient(to right, green, white, red)'},
-    },
-    {
-        id: 2,
-        name: 'HUNGARY',
-        bg:{background:'linear-gradient(to bottom, red, white, green)'},
-        },
+  
 
   ];
 

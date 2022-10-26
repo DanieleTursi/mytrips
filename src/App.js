@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+
 import Navbar from './components/Navbar/Navbar';
 import Card from './components/Card/Card';
 import './App.css';
@@ -10,22 +10,14 @@ import CardAsia from './components/Card/CardAsia';
 import CardOceania from './components/Card/CardOceania';
 import Home from './components/Home/Home';
 import Austria from './components/Country/Austria';
-import { AustriaSlider } from './components/Country/AustriaSlider';
+import { AustriaSlider } from './components/Country/Slider';
 
 
 
-class App extends Component{
-  constructor(){
-    super()
-    this.state ={
-        europe:['AUSTRIA','BELGIUM','BOSNIA & HERZEGOVINA', 'BULGARIA'],
-        searchfield:''
-    }
-  }
+const App = () => {
+ 
 
-  render(){ 
-    const {africa, america, asia, europe, oceania}= this.state;
-    return(
+  return(
       <Router>
          <div className="App">
              <style jsx global>{`
@@ -40,9 +32,9 @@ class App extends Component{
 
       <Route path="/" element={<Home/>}/>
       <Route path="/africa" element={<CardAfrica />}/>
-      <Route path="/america" element={<CardAmerica america={america}/>}/>
-      <Route path="/asia" element={<CardAsia asia={asia}/>}/>
-      <Route path="/europe" element={<Card europe={europe}/>}/>
+      <Route path="/america" element={<CardAmerica />}/>
+      <Route path="/asia" element={<CardAsia/>}/>
+      <Route path="/europe" element={<Card/>}/>
       <Route path="/oceania" element={<CardOceania/>}/>
       <Route path="/AUSTRIA" element={<Austria slides={AustriaSlider}/>}/>
         
@@ -53,6 +45,6 @@ class App extends Component{
   };
 
   
-}
+
 
 export default App;

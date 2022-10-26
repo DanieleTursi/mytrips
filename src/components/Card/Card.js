@@ -1,11 +1,9 @@
-import React, {useState} from "react";
-import './Card.css';
-import {europe , africa, america, asia, oceania} from './countries';
+import {europe} from './countries';
 import { useNavigate } from "react-router-dom";
 
 
 const Card = ()=>{
-  const [countries, setCountries] = useState (europe)
+  const countries = europe;
   const navigate = useNavigate();
   return (
     <div className="page">
