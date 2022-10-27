@@ -8,6 +8,10 @@ const Austria = ({slides}) => {
   const [current,setCurrent] = useState(0)
   const length = slides.length;
 
+  const selectPhoto= ()=>{
+    window.open( '_blank', 'noopener,noreferrer');
+  }
+
   const nextSlide= ()=>{
     setCurrent(current === length -1 ? 0 : current +1)
   }
@@ -26,7 +30,7 @@ const Austria = ({slides}) => {
     <div className='photosBox'>
     {AustriaSlider.map((slide)=>{
         return(
-          <div>
+          <div onClick = {() =>selectPhoto('./photos/austria1.jpg')}>
             <img src={slide.image} alt="" />
           </div>
         )

@@ -10,6 +10,7 @@ import CardAsia from './components/Card/CardAsia';
 import CardOceania from './components/Card/CardOceania';
 import Home from './components/Home/Home';
 import Austria from './components/Country/Austria';
+import Belgium from './components/Country/Belgium';
 import { AustriaSlider } from './components/Country/Slider';
 
 
@@ -37,6 +38,7 @@ const App = () => {
       <Route path="/europe" element={<Card/>}/>
       <Route path="/oceania" element={<CardOceania/>}/>
       <Route path="/AUSTRIA" element={<Austria slides={AustriaSlider}/>}/>
+      <Route path="/BElGIUM" element={<Belgium/>}/>
         
       </Routes>
       </div>
