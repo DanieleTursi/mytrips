@@ -129,6 +129,15 @@
     cursor: pointer;
 }
 
+.cityName{
+    font-size: 30px;
+    font-family: 'Gochi Hand', cursive;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    margin-top: 3px;
+
+}
 
 @media only screen and (max-width: 991px) {
     .photosBoxBelgium{

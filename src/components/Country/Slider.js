@@ -1,46 +1,82 @@
-import austria1 from './photos/austria1.jpg'
-import austria2 from './photos/austria2.jpg'
-import austria3 from './photos/austria3.jpg'
-import austria4 from './photos/austria4.jpg'
-import austria5 from './photos/austria5.jpg'
-import austria6 from './photos/austria6.jpg'
-import austria7 from './photos/austria7.jpg'
-import austria8 from './photos/austria8.jpg'
-import austria9 from './photos/austria9.jpg'
-import austria10 from './photos/austria10.jpg'
-import austria11 from './photos/austria11.jpg'
-import austria12 from './photos/austria12.jpg'
-import austria13 from './photos/austria13.jpg'
-import austria14 from './photos/austria14.jpg'
-import austria15 from './photos/austria15.jpg'
-import austria16 from './photos/austria16.jpg'
-import austria17 from './photos/austria17.jpg'
-import austria18 from './photos/austria18.jpg'
-import austria19 from './photos/austria19.jpg'
-import austria20 from './photos/austria20.jpg'
-import austria21 from './photos/austria21.jpg'
+import wien1 from './photos/wien1.jpg'
+import wien2 from './photos/wien2.jpg'
+import wien3 from './photos/wien3.jpg'
+import wien4 from './photos/wien4.jpg'
+import wien5 from './photos/wien5.jpg'
+import wien6 from './photos/wien6.jpg'
+import wien7 from './photos/wien7.jpg'
+import wien8 from './photos/wien8.jpg'
+import wien9 from './photos/wien9.jpg'
+import wien10 from './photos/wien10.jpg'
+import wien11 from './photos/wien11.jpg'
+import wien12 from './photos/wien12.jpg'
+import wien13 from './photos/wien13.jpg'
+import wien14 from './photos/wien14.jpg'
+import wien15 from './photos/wien15.jpg'
+import wien16 from './photos/wien16.jpg'
+import wien17 from './photos/wien17.jpg'
+import wien18 from './photos/wien18.jpg'
+import wien19 from './photos/wien19.jpg'
+import wien20 from './photos/wien20.jpg'
+import wien21 from './photos/wien21.jpg'
 
+import sofia1 from './photos/sofia1.jpg'
+import sofia2 from './photos/sofia2.jpg'
+import sofia3 from './photos/sofia3.jpg'
+import sofia4 from './photos/sofia4.jpg'
+import sofia5 from './photos/sofia5.jpg'
+import sofia6 from './photos/sofia6.jpg'
+import sofia7 from './photos/sofia7.jpg'
+import sofia8 from './photos/sofia8.jpg'
+import sofia9 from './photos/sofia9.jpg'
+import sofia10 from './photos/sofia10.jpg'
+import sofia11 from './photos/sofia11.jpg'
+import sofia12 from './photos/sofia12.jpg'
+import sofia13 from './photos/sofia13.jpg'
+import sofia14 from './photos/sofia14.jpg'
+import sofia15 from './photos/sofia15.jpg'
 
-export const AustriaSlider= [
-    {  image: `${austria1}` },
-    {  image: `${austria2}` },
-    {  image: `${austria3}` },
-    {  image: `${austria4}` },
-    {  image: `${austria5}` },
-    {  image: `${austria6}` },
-    {  image: `${austria7}` },
-    {  image: `${austria8}` },
-    {  image: `${austria9}` },
-    {  image: `${austria10}`},
-    {  image: `${austria11}`},
-    {  image: `${austria12}`},
-    {  image: `${austria13}`},
-    {  image: `${austria14}`},
-    {  image: `${austria15}`},
-    {  image: `${austria16}`},
-    {  image: `${austria17}`},
-    {  image: `${austria18}`},
-    {  image: `${austria19}`},
-    {  image: `${austria20}`},
-    {  image: `${austria21}`} 
+export const WienCity = [ 'WIEN'];
+
+export const WienSlider= [
+    {  image: `${wien1}` },
+    {  image: `${wien2}` },
+    {  image: `${wien3}` },
+    {  image: `${wien4}` },
+    {  image: `${wien5}` },
+    {  image: `${wien6}` },
+    {  image: `${wien7}` },
+    {  image: `${wien8}` },
+    {  image: `${wien9}` },
+    {  image: `${wien10}`},
+    {  image: `${wien11}`},
+    {  image: `${wien12}`},
+    {  image: `${wien13}`},
+    {  image: `${wien14}`},
+    {  image: `${wien15}`},
+    {  image: `${wien16}`},
+    {  image: `${wien17}`},
+    {  image: `${wien18}`},
+    {  image: `${wien19}`},
+    {  image: `${wien20}`},
+    {  image: `${wien21}`} 
+]
+
+export const SofiaCity = [ 'SOFIA'];
+export const SofiaSlider= [
+    {  image: `${sofia1}` },
+    {  image: `${sofia2}` },
+    {  image: `${sofia3}` },
+    {  image: `${sofia4}` },
+    {  image: `${sofia5}` },
+    {  image: `${sofia6}` },
+    {  image: `${sofia7}` },
+    {  image: `${sofia8}` },
+    {  image: `${sofia9}` },
+    {  image: `${sofia10}`},
+    {  image: `${sofia11}`},
+    {  image: `${sofia12}`},
+    {  image: `${sofia13}`},
+    {  image: `${sofia14}`},
+    {  image: `${sofia15}`}
 ]

@@ -10,10 +10,7 @@ import CardAsia from './components/Card/CardAsia';
 import CardOceania from './components/Card/CardOceania';
 import Home from './components/Home/Home';
 import Austria from './components/Country/Austria';
-import Belgium from './components/Country/Belgium';
-import { AustriaSlider } from './components/Country/Slider';
-
-
+import Bulgaria from './components/Country/Bulgaria';
 
 const App = () => {
  
@@ -37,8 +34,9 @@ const App = () => {
       <Route path="/asia" element={<CardAsia/>}/>
       <Route path="/europe" element={<Card/>}/>
       <Route path="/oceania" element={<CardOceania/>}/>
-      <Route path="/AUSTRIA" element={<Austria slides={AustriaSlider}/>}/>
-      <Route path="/BElGIUM" element={<Belgium/>}/>
+      <Route path="/AUSTRIA" element={<Austria/>}/>
+      <Route path="/BElGIUM" element={<Austria/>}/>
+      <Route path="/BULGARIA" element={<Bulgaria/>}/>
         
       </Routes>
       </div>
