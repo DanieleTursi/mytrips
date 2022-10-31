@@ -34,6 +34,24 @@
     scale:1.04;
 }
 
+.cityBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:500px;
+    height:50px;
+    border-radius: 10px;
+    margin:5px;
+    cursor:pointer;
+    background-color: black;
+} 
+
+.cityBox:hover{
+    opacity: 0.8;
+    scale:1.04;
+}
+
+
  h1 {
     text-shadow: -1.5px 1.5px 0 #000,
                  1.5px 1.5px 0 #000,

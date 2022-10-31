@@ -1,5 +1,5 @@
 import React from 'react';
-import './Country.css';
+import './Photogallery.css';
 import { useState } from 'react';
 import {AiOutlineClose} from 'react-icons/ai';
 
@@ -15,7 +15,6 @@ const Photogallery = ({Slider,City}) => {
     
   return (
     <>
-    <h1 className='cityName'>{City[0]}</h1>
     <div className={ model ? "model open" : "model"}>
         <img src={tempImage} alt="" onClick={()=> setModel(false)}/>
         <AiOutlineClose className='close' onClick={()=> setModel(false)} />

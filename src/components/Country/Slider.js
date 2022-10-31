@@ -36,7 +36,9 @@ import sofia13 from './photos/sofia13.jpg'
 import sofia14 from './photos/sofia14.jpg'
 import sofia15 from './photos/sofia15.jpg'
 
-export const WienCity = [ 'WIEN'];
+export const AustriaCities = [ 
+    { name: 'WIEN', bg:{backgroundImage: `url(${wien1})`}}
+];
 
 export const WienSlider= [
     {  image: `${wien1}` },
@@ -62,7 +64,9 @@ export const WienSlider= [
     {  image: `${wien21}`} 
 ]
 
-export const SofiaCity = [ 'SOFIA'];
+export const BulgariaCities = [ 
+    { name: 'SOFIA', bg:{backgroundImage: `url(${sofia1})`}}
+];
 export const SofiaSlider= [
     {  image: `${sofia1}` },
     {  image: `${sofia2}` },

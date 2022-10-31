@@ -1,16 +1,13 @@
-
 import Navbar from './components/Navbar/Navbar';
 import Card from './components/Card/Card';
 import './App.css';
-import {Helmet} from 'react-helmet';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import CardAfrica from './components/Card/CardAfrica';
-import CardAmerica from './components/Card/CardAmerica';
-import CardAsia from './components/Card/CardAsia';
-import CardOceania from './components/Card/CardOceania';
+import { africa,america,asia,europe, oceania } from './components/Card/countries';
 import Home from './components/Home/Home';
-import Austria from './components/Country/Austria';
-import Bulgaria from './components/Country/Bulgaria';
+import Photogallery from './components/Country/Photogallery';
+import { AustriaCities, WienSlider, SofiaSlider, BulgariaCities } from './components/Country/Slider';
+import Cities from './components/Country/Cities';
+
 
 const App = () => {
  
@@ -29,14 +26,18 @@ const App = () => {
       <Routes>
 
       <Route path="/" element={<Home/>}/>
-      <Route path="/africa" element={<CardAfrica />}/>
-      <Route path="/america" element={<CardAmerica />}/>
-      <Route path="/asia" element={<CardAsia/>}/>
-      <Route path="/europe" element={<Card/>}/>
-      <Route path="/oceania" element={<CardOceania/>}/>
-      <Route path="/AUSTRIA" element={<Austria/>}/>
-      <Route path="/BElGIUM" element={<Austria/>}/>
-      <Route path="/BULGARIA" element={<Bulgaria/>}/>
+      <Route path="/africa" element={<Card countries={africa} />}/>
+      <Route path="/america" element={<Card countries={america} />}/>
+      <Route path="/asia" element={<Card countries={asia} />}/>
+      <Route path="/europe" element={<Card countries={europe} />}/>
+          <Route path="/AUSTRIA" element={<Cities cities={AustriaCities} />}/>
+               <Route path="/Wien" element={<Photogallery Slider={WienSlider} City={AustriaCities} />}/>
+          <Route path="/BElGIUM" element={<Photogallery Slider={WienSlider} City={AustriaCities} />}/>
+          <Route path="/BULGARIA" element={<Cities cities={BulgariaCities} />}/>
+          <Route path="/Sofia" element={<Photogallery Slider={SofiaSlider} City={BulgariaCities} />}/>
+      <Route path="/oceania" element={<Card countries={oceania} />}/>
+      
+              
         
       </Routes>
       </div>

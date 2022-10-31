@@ -1,9 +1,7 @@
-import {europe} from './countries';
 import { useNavigate } from "react-router-dom";
+import './Card.css'
 
-
-const Card = ()=>{
-  const countries = europe;
+const Card = ({countries})=>{
   const navigate = useNavigate();
   return (
     <div className="page">
